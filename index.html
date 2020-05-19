@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Viewport tagen anppasar sidans storlek till skärmens width. -->
+    <meta name="viewport" content="width=device-width">
+    <!-- description tagen anppasar sidans storlek till skärmens width. -->
+    <meta name="description" content="THE SERVICE YOUR BMW DESERVES">
+    <!-- keywords tagen gör det lättare för search engine att ta fram sidan. -->
+	  <meta name="keywords" content="Repairshop, affordable workshop, professional mechanic">
+    <!-- Author tagen kan man skriva sitt namn. haha -->
+  	<meta name="author" content="CJ007">
+    <title>Bimmer repair shop | Home</title>
+    <!-- Här läger jag till logon till fliken -->
+    <link class="MB" rel="icon" href="img\MC-logo.png" type="image/png">
+    <!-- Här länker jag css filen till indexen -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Här länker jag js filen till indexen -->
+    <script src="js\js.js"></script>
+
+  </head>
+  <body id="myP" onLoad="myFunction()">
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight"><img class="badge" src="img\MC-logo.png"></span> <span class="blue">Repair</span> <span class="red">shop</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a id="blueL" href="index.html">Home</a></li>
+            <li><a id="blueS" href="about.html">About</a></li>
+            <li><a id="Red" href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h1 class="readable" >THE SERVICE YOUR BMW DESERVES</h1>
+        <p class="readable">M-Repairshop.com is a comprehensive directory of independent BMW mechanics.
+We’ll help you find a trusted BMW service professional.</p>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input id='email' type="email" value='' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" placeholder="Enter Email...">
+          <button type="submit" class="button_1" onclick="emailjs()">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/logoXP.png">
+          <h3>Knowledge & Experience</h3>
+          <p>We’ll help you locate a BMW repair expert. Please use our website to find a nearby BMW mechanic with dealer-level expertise, at a fraction of the expense.</p>
+        </div>
+        <div class="box">
+          <img src="./img/pros.png">
+          <h3>Specialized Professionals</h3>
+          <p>We know that you want to maintain your car to the highest standards, which is why BimmerShops.com focuses exclusively on BMW repair specialists.</p>
+        </div>
+        <div class="box">
+          <img src="./img/car.png">
+          <h3>BMW Repair Shops</h3>
+          <p>BimmerShops.com was created to help BMW drivers find a trustworthy and reliable independent mechanic to service their BMW.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>CJ007 Web Design, Copyright &copy; 1999-2020</p>
+    </footer>
+  </div>
+  </body>
+</html>
